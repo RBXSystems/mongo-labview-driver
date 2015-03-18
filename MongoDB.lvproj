@@ -18,19 +18,29 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Notes" Type="Folder">
-			<Item Name="ToDo.vi" Type="VI" URL="../ToDo.vi"/>
+			<Item Name="ToDo.vi" Type="VI" URL="../ToDo.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+		</Item>
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="MongoDB.JSONtoQueryDoc.vi" Type="VI" URL="../MongoDB.Helper/MongoDB.JSONtoQueryDoc.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="MongoDB.Parse.CommandResult.vi" Type="VI" URL="../MongoDB.Helper/MongoDB.Parse.CommandResult.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="MongoDB.EnumerateResult.vi" Type="VI" URL="../MongoDB.Helper/MongoDB.EnumerateResult.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="MongoDB.Client.lvclass" Type="LVClass" URL="../MongoDB.Client.lvclass"/>
 		<Item Name="MongoDB.Database.lvclass" Type="LVClass" URL="../MongoDB.Database.lvclass"/>
 		<Item Name="MongoDB.Collection.lvclass" Type="LVClass" URL="../MongoDB.Collection.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="MongoDB.Driver.dll" Type="Document" URL="../../../../../../MongoData/Drivers/mongo-csharp-driver-2.0.0-beta4/mongo-csharp-driver-2.0.0-beta4/src/MongoDB.Driver.Legacy/bin/Release/MongoDB.Driver.dll"/>
-			<Item Name="MongoDB.Driver.Legacy.dll" Type="Document" URL="../../../../../../MongoData/Drivers/mongo-csharp-driver-2.0.0-beta4/mongo-csharp-driver-2.0.0-beta4/src/MongoDB.Driver.Legacy/bin/Release/MongoDB.Driver.Legacy.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="marked" Type="Int">0</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MongoDB.Bson.dll" Type="Document" URL="../../../../../../MongoData/Drivers/mongo-csharp-driver-2.0.0-beta4/mongo-csharp-driver-2.0.0-beta4/src/MongoDB.Driver.Legacy/bin/Release/MongoDB.Bson.dll"/>
-			<Item Name="MongoDB.Driver.Core.dll" Type="Document" URL="../../../../../../MongoData/Drivers/mongo-csharp-driver-2.0.0-beta4/mongo-csharp-driver-2.0.0-beta4/src/MongoDB.Driver.Legacy/bin/Release/MongoDB.Driver.Core.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
