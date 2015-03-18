@@ -14,6 +14,12 @@
 		<Item Name="Example" Type="Folder" URL="../Example">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="CSharp" Type="Folder" URL="../CSharp">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Notes" Type="Folder">
+			<Item Name="ToDo.vi" Type="VI" URL="../ToDo.vi"/>
+		</Item>
 		<Item Name="MongoDB.Client.lvclass" Type="LVClass" URL="../MongoDB.Client.lvclass"/>
 		<Item Name="MongoDB.Database.lvclass" Type="LVClass" URL="../MongoDB.Database.lvclass"/>
 		<Item Name="MongoDB.Collection.lvclass" Type="LVClass" URL="../MongoDB.Collection.lvclass"/>
