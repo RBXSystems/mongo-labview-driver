@@ -16,7 +16,9 @@ https://github.com/mongodb/mongo-csharp-driver/releases
 See the notes from National Instruments (below), regarding importing third party .Net Assemblies
 http://zone.ni.com/reference/en-XX/help/371361K-01/lvhowto/configuring_clr_version/
 http://digital.ni.com/public.nsf/allkb/4742EB60B64BE22186257BCE0053B8FD
+
 LabVIEW.exe.config example in project
+
 
 Contributing
 ------------
